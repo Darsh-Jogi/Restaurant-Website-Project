@@ -6,6 +6,15 @@ Click on the link for the live demo -- [Live Demo](https://darsh-jogi.github.io/
 # Demo & Screenshots
 <img src="https://raw.githubusercontent.com/Darsh-Jogi/Restaurant-Website-Project/mainproject/banner%20for%20the%20readme%20file%201.png">
 
+## Screenshot - 1
+<img src="https://raw.githubusercontent.com/Darsh-Jogi/Restaurant-Website-Project/mainproject/Restuarant%20Website%20screenshot%201.png">
+
+## Screenshot - 2
+<img src="https://raw.githubusercontent.com/Darsh-Jogi/Restaurant-Website-Project/mainproject/Restuarant%20Website%20Screenshot%202.png">
+
+## Screenshot - 3
+<img src="https://raw.githubusercontent.com/Darsh-Jogi/Restaurant-Website-Project/mainproject/Restuarant%20Website%20Screenshot%203.png">
+
 # Taste of Bharat - Where Tradition Meets Technology
 
 More than just a restaurant, "Taste of Bharat" is a portal to the culinary soul of India. Discover dishes passed down through generations, prepared with passion by authentic chefs. Our user-friendly website lets you explore regional specialties, order online, and experience the magic of Indian cuisine from the comfort of your home.
@@ -21,6 +30,7 @@ Elevate your restaurant's online presence and attract discerning diners with the
 | CSS3 | Styling Language | Styles visual elements with the help of Bootstrap 5 for a responsive layout. |
 | JavaScript | Programming Language | Adds interactivity and dynamic elements like menu transitions and search functions. |
 | Bootstrap 5 | CSS Framework | Responsive website layout grid system for optimal viewing across devices. |
+| SCSS | CSS Preprocessor | Adds features like variables, mixins, and nesting for cleaner and more powerful CSS.|
 | CSS Libraries | CSS Library | CSS Libraries
 |   - Animate.css | CSS Library | Pre-built CSS animations for visual effects. |
 | JavaScript Libraries | JavaScript Library | JavaScript Libraries
@@ -44,6 +54,6 @@ Gift Certificate Purchases | Surprise loved ones with the gift of delicious dini
 Multilingual Support | Cater to a diverse audience with seamless language switching. |
 Mobile-Friendly Design | Enjoy a smooth and intuitive experience on any device. |
 
-## Contributing and Feedback
+## Contribution and Feedback
 
 Your thoughts and opinions matter! We welcome any feedback you have on the Restaurant Website Project. Whether it's suggestions for new features, improvements to existing functionalities, or ideas for better serving restaurants and diners, we're eager to hear it. Your input will be valuable as we refine the project and explore future development possibilities.
