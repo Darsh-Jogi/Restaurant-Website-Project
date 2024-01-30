@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Restoran - Bootstrap Restaurant Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <img src="img/output-onlinepngtools (1).png" alt="Logo" class="main-website-logo">
+                    <h1 class="text-primary m-0">Taste Of Bharat</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Service</a>
+                        <a href="menu.html" class="nav-item nav-link active">Menu</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="booking.html" class="dropdown-item">Booking</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="" class="btn btn-primary py-2 px-4">Book A Table</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Food Menu</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Menu</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Menu Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
+                    <h1 class="mb-5">Most Popular Items</h1>
+                </div>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill"
+                                href="#tab-1">
+                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="100.000000pt" height="100.000000pt" viewBox="0 0 100.000000 100.000000"
+ preserveAspectRatio="xMidYMid meet" class="aboutus-svg-icon">
+
+<g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)">
+<path d="M557 964 c-4 -4 -7 -27 -7 -50 0 -31 -10 -62 -35 -107 -35 -64 -35
+-64 -35 -195 0 -132 9 -165 35 -129 7 10 26 17 44 17 21 0 31 5 31 15 0 10
+-11 15 -35 15 -31 0 -35 3 -35 25 0 23 4 25 45 25 l45 0 0 60 0 60 -45 0 c-33
+0 -45 4 -45 15 0 13 30 15 211 15 164 0 210 -3 207 -12 -3 -9 -31 -14 -81 -16
+l-77 -3 0 -59 0 -60 80 0 c79 0 80 0 80 -25 l0 -25 -125 0 c-104 0 -125 -2
+-125 -15 0 -13 20 -15 124 -15 122 0 125 -1 128 -22 2 -13 8 -23 13 -23 6 0
+11 57 13 145 l3 145 -33 62 -33 63 -162 0 -163 0 0 35 0 35 156 0 c120 0 155
+3 152 13 -4 9 -47 13 -164 15 -88 1 -163 -1 -167 -4z m346 -155 c10 -18 16
+-33 14 -36 -2 -2 -90 -2 -195 -1 l-191 3 20 33 21 32 156 0 157 0 18 -31z
+m-323 -169 c0 -27 -3 -30 -30 -30 -27 0 -30 3 -30 30 0 27 3 30 30 30 27 0 30
+-3 30 -30z m360 0 l0 -30 -65 0 -65 0 0 30 0 30 65 0 65 0 0 -30z"/>
+<path d="M50 650 c-27 -27 -25 -56 5 -86 23 -23 25 -32 25 -115 0 -68 3 -90
+13 -87 6 3 13 14 15 25 2 11 23 39 47 63 25 25 45 48 45 52 0 17 -26 6 -57
+-24 l-33 -32 0 52 0 52 170 0 c144 0 170 2 170 15 0 13 -27 15 -184 15 -151 0
+-186 3 -196 15 -10 12 -10 18 0 30 10 12 45 15 196 15 157 0 184 2 184 15 0
+13 -28 15 -190 15 -177 0 -191 -1 -210 -20z"/>
+<path d="M242 467 c-39 -40 -53 -67 -34 -67 10 0 102 93 102 103 0 19 -30 3
+-68 -36z"/>
+<path d="M432 428 c-7 -7 -12 -21 -12 -32 0 -11 -12 -33 -27 -48 -20 -21 -24
+-31 -15 -40 8 -8 15 -8 27 2 13 11 15 0 15 -98 0 -121 9 -154 47 -171 32 -15
+284 -14 317 1 14 6 31 26 38 43 10 29 17 34 59 39 75 10 89 35 89 158 0 97 -1
+100 -29 129 l-29 29 -234 0 c-169 0 -237 -3 -246 -12z m366 -70 l3 -48 -175 0
+-176 0 0 43 c0 24 3 47 7 51 4 3 81 5 172 4 l166 -3 3 -47z m122 32 c17 -17
+20 -33 20 -108 0 -109 -7 -120 -80 -124 -53 -3 -54 -4 -61 -38 -11 -55 -27
+-60 -176 -60 -171 0 -173 1 -173 130 l0 90 175 0 175 0 0 -46 0 -45 53 3 52 3
+0 85 0 85 -37 3 c-30 3 -38 7 -38 23 0 27 62 27 90 -1z m-50 -110 c0 -53 -2
+-60 -20 -60 -18 0 -20 7 -20 60 0 53 2 60 20 60 18 0 20 -7 20 -60z"/>
+<path d="M248 386 c-19 -12 -51 -25 -71 -29 -81 -13 -147 -87 -147 -164 0 -50
+41 -114 90 -140 55 -29 95 -29 150 0 50 26 90 90 90 141 -1 51 -35 114 -76
+138 l-36 21 26 14 c14 7 26 18 26 23 0 20 -19 19 -52 -4z m-58 -86 c0 -28 -2
+-30 -26 -24 -35 9 -28 -16 9 -34 22 -11 32 -11 54 0 34 17 45 43 14 35 -17 -4
+-21 -1 -21 19 0 14 6 24 14 24 25 0 74 -49 87 -87 34 -104 -80 -205 -177 -157
+-106 53 -107 184 -3 236 46 24 49 23 49 -12z"/>
+<path d="M94 175 c-8 -20 21 -63 52 -77 44 -20 42 5 -3 50 -33 32 -45 39 -49
+27z"/>
+<path d="M346 388 c-19 -27 -20 -38 -3 -38 14 0 57 41 57 53 0 16 -40 5 -54
+-15z"/>
+</g>
+</svg>
+                                <div class="ps-3">
+                                    <small class="text-body">Popular</small>
+                                    <h6 class="mt-n1 mb-0">Breakfast</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill"
+                                href="#tab-2">
+                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="100.000000pt" height="100.000000pt" viewBox="0 0 100.000000 100.000000"
+ preserveAspectRatio="xMidYMid meet" class="aboutus-svg-icon">
+
+<g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)">
+<path d="M624 900 c-33 -13 -54 -50 -54 -93 0 -100 140 -134 186 -46 45 89
+-39 177 -132 139z m84 -52 c21 -21 14 -66 -12 -83 -28 -19 -58 -9 -76 26 -25
+45 51 94 88 57z"/>
+<path d="M450 651 c-71 -28 -130 -69 -196 -137 -61 -63 -125 -166 -111 -180
+12 -12 731 -204 745 -199 19 7 15 120 -7 208 -55 212 -168 328 -320 327 -39
+-1 -85 -8 -111 -19z m174 -32 c85 -24 175 -145 211 -284 16 -62 20 -145 8
+-145 -15 0 -635 169 -640 174 -9 9 65 102 119 151 55 50 108 80 173 101 50 16
+80 17 129 3z"/>
+<path d="M484 564 c-46 -16 -87 -50 -79 -65 9 -14 32 -11 75 11 22 11 47 20
+58 20 24 0 42 19 35 36 -6 17 -36 17 -89 -2z"/>
+<path d="M311 436 c-23 -24 -21 -46 3 -46 20 0 49 37 43 55 -9 21 -20 19 -46
+-9z"/>
+<path d="M12 33 c3 -17 34 -18 488 -18 454 0 485 1 488 18 3 16 -25 17 -488
+17 -463 0 -491 -1 -488 -17z"/>
+</g>
+</svg>
+                                <div class="ps-3">
+                                    <small class="text-body">Special</small>
+                                    <h6 class="mt-n1 mb-0">Launch</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill"
+                                href="#tab-3">
+                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="100.000000pt" height="100.000000pt" viewBox="0 0 100.000000 100.000000"
+ preserveAspectRatio="xMidYMid meet" class="aboutus-svg-icon">
+
+<g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)">
+<path d="M840 670 c0 -105 -4 -190 -9 -190 -15 0 -22 -32 -10 -46 8 -10 9 -49
+4 -132 l-7 -119 27 -21 c35 -28 55 -28 90 0 l27 21 -7 119 c-5 83 -4 122 4
+132 12 14 5 46 -10 46 -5 0 -9 74 -9 164 l0 164 -31 26 c-17 14 -39 26 -50 26
+-18 0 -19 -9 -19 -190z m27 -97 c-1 -49 -3 -9 -3 87 0 96 2 136 3 88 2 -49 2
+-127 0 -175z m53 66 c0 -99 -4 -159 -10 -159 -6 0 -10 62 -10 166 0 107 3 163
+10 159 6 -4 10 -70 10 -166z m20 -189 c0 -5 -22 -10 -50 -10 -27 0 -50 5 -50
+10 0 6 23 10 50 10 28 0 50 -4 50 -10z m-16 -52 c3 -13 7 -63 10 -111 5 -78 3
+-90 -14 -107 -25 -25 -35 -25 -60 0 -17 17 -19 29 -14 107 8 128 9 133 44 133
+23 0 31 -5 34 -22z"/>
+<path d="M30 770 c0 -70 1 -74 35 -106 32 -30 35 -37 35 -93 0 -54 -2 -60 -22
+-63 -20 -3 -24 -10 -29 -68 -4 -36 -7 -104 -8 -152 -1 -76 2 -91 19 -108 29
+-29 74 -26 100 7 20 25 21 35 15 143 -8 162 -12 180 -35 180 -18 0 -20 7 -20
+70 0 54 3 70 14 70 30 0 46 42 46 117 0 42 -4 73 -10 73 -6 0 -10 -30 -10 -69
+0 -53 -4 -74 -17 -87 -17 -17 -18 -14 -21 69 -4 112 -22 114 -22 2 0 -47 -4
+-85 -9 -85 -20 0 -30 30 -33 95 -2 43 -8 70 -15 73 -10 3 -13 -15 -13 -68z
+m110 -315 c0 -22 -4 -25 -35 -25 -31 0 -35 3 -35 25 0 22 4 25 35 25 31 0 35
+-3 35 -25z m12 -142 c2 -49 0 -96 -4 -105 -12 -26 -47 -32 -69 -12 -21 19 -23
+44 -13 143 l7 61 38 0 38 0 3 -87z"/>
+<path d="M390 783 c-63 -23 -151 -113 -173 -177 -22 -63 -22 -149 0 -212 23
+-67 110 -154 177 -177 117 -40 231 -14 317 72 86 86 112 200 72 317 -23 67
+-110 154 -177 177 -61 21 -156 21 -216 0z m200 -19 c76 -23 153 -100 176 -179
+63 -219 -132 -414 -351 -351 -79 23 -156 100 -179 176 -34 113 -11 206 68 286
+80 79 173 102 286 68z"/>
+<path d="M395 719 c-4 -6 -5 -12 -2 -15 7 -7 37 7 37 17 0 13 -27 11 -35 -2z"/>
+<path d="M317 661 c-48 -53 -79 -158 -49 -168 8 -3 12 6 12 28 0 43 34 112 71
+143 32 27 36 36 15 36 -7 0 -29 -17 -49 -39z"/>
+<path d="M443 680 c-13 -5 -23 -14 -23 -20 0 -7 8 -9 23 -4 65 21 147 -2 186
+-52 120 -153 -80 -353 -233 -233 -63 50 -78 154 -31 222 25 38 19 59 -8 29
+-24 -27 -47 -87 -47 -124 0 -41 30 -106 61 -135 97 -89 245 -58 300 62 45 96
+-1 207 -103 250 -41 17 -91 19 -125 5z"/>
+</g>
+</svg>
+                                <div class="ps-3">
+                                    <small class="text-body">Lovely</small>
+                                    <h6 class="mt-n1 mb-0">Dinner</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/delicious-indian-dosa-composition.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Masala Dosa</span>
+                                                <span class="text-primary">₹ 150</span>
+                                            </h5>
+                                            <small class="fst-italic">A South Indian favorite, crispy crepe filled with spiced potato filling, served with coconut chutney and sambar.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/poha-breakfast.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bhartiya-Special Poha</span>
+                                                <span class="text-primary">₹ 50</span>
+                                            </h5>
+                                            <small class="fst-italic">Flattened rice cooked with onions, peas, and spices, garnished with peanuts and fresh cilantro.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Aloo-paratha.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Aloo Paratha</span>
+                                                <span class="text-primary">₹ 120</span>
+                                            </h5>
+                                            <small class="fst-italic">Whole wheat bread stuffed with seasoned mashed potatoes, cooked on a griddle, served with yogurt or pickle.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Upma-breakfast.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Special Upma</span>
+                                                <span class="text-primary">₹ 80</span>
+                                            </h5>
+                                            <small class="fst-italic">Savory semolina porridge cooked with vegetables and tempered with mustard seeds and curry leaves.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/idli-sambhar.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Idli Sambhar</span>
+                                                <span class="text-primary">₹ 100</span>
+                                            </h5>
+                                            <small class="fst-italic">Steamed rice cakes served with lentil soup and an array of chutneys for a wholesome start to your day.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/uttapam.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Vegetable Uttapam</span>
+                                                <span class="text-primary">₹ 120</span>
+                                            </h5>
+                                            <small class="fst-italic">Thick rice and lentil pancake topped with assorted vegetables, served with coconut chutney.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Chole-bhature.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chole Bhature</span>
+                                                <span class="text-primary">₹ 150</span>
+                                            </h5>
+                                            <small class="fst-italic">Spiced chickpea curry served with fluffy deep-fried bread, a North Indian breakfast delight.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Poori-bhaji.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Poori Bhaji</span>
+                                                <span class="text-primary">₹ 120</span>
+                                            </h5>
+                                            <small class="fst-italic"> Puffed deep-fried bread served with a spiced potato curry, a comforting and satisfying morning meal.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Paneer Tikka Masala.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Paneer Tikka Masala</span>
+                                                <span class="text-primary">₹ 250</span>
+                                            </h5>
+                                            <small class="fst-italic"> Succulent cubes of paneer cooked in a creamy tomato-based sauce, infused with aromatic spices.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Dal Tadka.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Dal Tadka</span>
+                                                <span class="text-primary">₹ 200</span>
+                                            </h5>
+                                            <small class="fst-italic">Yellow lentils tempered with cumin, garlic, and ghee, a comforting staple in every Indian meal.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Vegetable Biryani.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Vegetable Biryani</span>
+                                                <span class="text-primary">₹ 200</span>
+                                            </h5>
+                                            <small class="fst-italic">Fragrant basmati rice cooked with mixed vegetables and aromatic spices, served with raita.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Palak-Paneer.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Palak Paneer</span>
+                                                <span class="text-primary">₹ 250</span>
+                                            </h5>
+                                            <small class="fst-italic"> Soft paneer cubes cooked in a flavorful spinach gravy, a nutritious and delicious choice.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Aloo Gobi.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Aloo Gobi</span>
+                                                <span class="text-primary">₹ 180</span>
+                                            </h5>
+                                            <small class="fst-italic">Stir-fried potatoes and cauliflower florets cooked with onions, tomatoes, and spices.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Baigan Bharta.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Baingan Bharta</span>
+                                                <span class="text-primary">₹ 200</span>
+                                            </h5>
+                                            <small class="fst-italic">Smoky roasted eggplant mashed and cooked with onions, tomatoes, and spices, bursting with flavor.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Rajma Masala.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Rajma Masala</span>
+                                                <span class="text-primary">₹ 250</span>
+                                            </h5>
+                                            <small class="fst-italic">Creamy kidney bean curry simmered in a rich tomato gravy, best enjoyed with steamed rice.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Matar-Paneer.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Matar Paneer</span>
+                                                <span class="text-primary">₹ 250</span>
+                                            </h5>
+                                            <small class="fst-italic">Green peas and paneer cubes cooked in a mildly spiced tomato-based gravy, a classic combination</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Vegetable Korma.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Vegetable Korma</span>
+                                                <span class="text-primary">₹ 300</span>
+                                            </h5>
+                                            <small class="fst-italic">Assorted vegetables cooked in a creamy coconut and cashew gravy, mildly spiced and indulgent.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Chana-masala.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chana Masala</span>
+                                                <span class="text-primary">₹ 250</span>
+                                            </h5>
+                                            <small class="fst-italic">Hearty chickpea curry cooked with onions, tomatoes, and aromatic spices, a comforting dish.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Mahrrom-matar.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mushroom Matar</span>
+                                                <span class="text-primary">₹ 300</span>
+                                            </h5>
+                                            <small class="fst-italic">ender mushrooms and green peas cooked in a fragrant onion and tomato-based gravy, bursting with flavor.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Bhindi Masala-2.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bhindi Masala</span>
+                                                <span class="text-primary">₹ 250</span>
+                                            </h5>
+                                            <small class="fst-italic">Okra cooked with onions, tomatoes, and spices, offering a delightful crunch and tangy taste.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Vegetable jalzfreri.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Vegetable Jalfrezi</span>
+                                                <span class="text-primary">₹ 350</span>
+                                            </h5>
+                                            <small class="fst-italic">Colorful medley of vegetables stir-fried with bell peppers, onions, and tomatoes in a spicy sauce.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Malai Kofta.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Malai Kofta</span>
+                                                <span class="text-primary">₹ 300</span>
+                                            </h5>
+                                            <small class="fst-italic">Creamy cottage cheese and vegetable dumplings simmered in a rich tomato and cashew gravy, a royal indulgence.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Dum Aloo.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Dum Aloo</span>
+                                                <span class="text-primary">₹ 250</span>
+                                            </h5>
+                                            <small class="fst-italic">Baby potatoes cooked in a spicy yogurt-based gravy, infused with aromatic whole spices.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Spinach Dal.jpg" alt=""
+                                            style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Spinach Dal</span>
+                                                <span class="text-primary">₹ 250</span>
+                                            </h5>
+                                            <small class="fst-italic">Yellow lentils cooked with fresh spinach, garlic, and spices, a nutritious and flavorful option for dinner.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
+                        <a class="btn btn-link" href="">About Us</a>
+                        <a class="btn btn-link" href="">Contact Us</a>
+                        <a class="btn btn-link" href="">Reservation</a>
+                        <a class="btn btn-link" href="">Privacy Policy</a> 
+                        <a class="btn btn-link" href="">Terms & Condition</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>VIP Road Vesu, Surat 395007, Gujarat, India.</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 98356-93784</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@tasteofbharat.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                        <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                        <p>11AM - 11PM</p>
+                        <h5 class="text-light fw-normal">Sunday</h5>
+                        <p>09AM - 11PM</p> 
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
+                        <p>Stay updated with the latest news, special offers, and culinary delights!</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="Your email">
+                            <button type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">TasteOfBharat</a>, All Right Reserved.
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
