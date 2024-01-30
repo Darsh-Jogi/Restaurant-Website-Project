@@ -2,6 +2,10 @@
 Taste of Bharat is a fully responsive website,
 Responsive for all devices, build using HTML, CSS, and JavaScript.
 Click on the link for the live demo -- [Live Demo](https://darsh-jogi.github.io/Restaurant-Website-Project/)
+
+# Demo & Screenshots
+<img src="https://raw.githubusercontent.com/Darsh-Jogi/Restaurant-Website-Project/mainproject/banner%20for%20the%20readme%20file%201.png">
+
 # Taste of Bharat - Where Tradition Meets Technology
 
 More than just a restaurant, "Taste of Bharat" is a portal to the culinary soul of India. Discover dishes passed down through generations, prepared with passion by authentic chefs. Our user-friendly website lets you explore regional specialties, order online, and experience the magic of Indian cuisine from the comfort of your home.
